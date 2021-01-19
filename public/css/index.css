@@ -1,0 +1,466 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-attachment: fixed;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+    color:rgb(133, 98, 98) !important;
+    
+}
+.fontblack{
+    color: rgb(4, 1, 19);
+    
+}
+
+
+
+.navbar{
+    padding-top: 20px !important;
+    text-decoration: none;
+    background-color: rgba(77, 3, 146, 0.959) !important;
+}
+
+
+
+
+.nav-link{
+
+    color: #000000 !important;
+    font-size: 20px;
+    
+    display: unset;
+    border-radius: 8px;
+    
+}
+.dropdown-menu a:hover{
+    color: #fffdfd !important;
+    background-color: #6d0780;
+
+}
+
+.logo{
+    width: 50px;
+    
+   
+}
+.logos{
+    text-align: center;
+
+}
+
+.logoname{
+    color:#ffffff !important;
+    font-weight: bolder;
+    margin-bottom: 20px !important;
+    
+}
+
+.fa-bars{
+    color: white;
+    font-size: 40px !important;
+}
+
+.navbar-toggler{
+    border: 0  !important;
+    outline: none !important;
+    padding: initial !important;
+}
+
+
+.active-home{
+    border-bottom: 2px solid #ffffff;
+}
+
+.nav-link:hover{
+   
+    background-color: #e0ebe7;
+    border: #ffffff;
+    
+
+}
+
+.banner{
+    margin-top: 8%;
+    color:white !important;
+}
+
+.banner h1{
+    margin: 80px 0 50px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.banner a{
+    padding: 12px;
+    width: 120px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none !important;
+    border: 2px solid white;
+    background-color: #7d00d1;
+    border-radius: 25px;
+    text-align: center !important;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.banner a:hover{
+    color: #ffffff;
+   
+
+}
+.express-btn{
+    background-color: #ffffff !important;
+    color: black !important;
+    margin-right: 5px;
+
+}
+
+/*------------------HEADER END-----------------------------------*/
+
+
+/*-----------------SERVICE START---------------------------------*/
+
+.service{
+    margin:  0;
+    background-color: rgba(129, 129, 129, 0.5);
+
+}
+
+.title{
+
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.subtitle{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+
+.cat1{
+    text-align: center;
+    font-weight: bolder;
+    background-color: black;
+    color: cornsilk;
+    
+}
+
+.p1{
+    padding: 5px;
+    width: 300px;
+    
+}
+
+.p2{
+    padding: 5px;
+    width: 250px;
+}
+
+.p3{
+    padding: 5px;
+    width: 350px;
+}
+
+.txt{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* ------------------------------ top recomended items codes--------------------------- */
+
+.cat2{
+
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    font-weight:bolder ;
+
+}
+
+
+
+.search{
+	size: 10px;
+}
+/* for product overlay */
+.image{
+    position: relative;
+	width: 250px;
+	margin-left: 0px;
+	padding-left: 0px;
+   
+
+}
+.image_img{
+    display: block;
+    width: 100%;
+
+}
+.image_overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(230, 228, 228, 0.815);
+    color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .10s;
+
+
+
+}
+.image_overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.35s;
+
+}
+
+.image_overlay:hover{
+    opacity: 1;
+    
+}
+
+.image_overlay:hover > *{
+    transform: translateY(0px);
+    
+
+}
+.image_title{
+    font-size: 2em;
+    font-weight: bold;
+
+}
+.img_des{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+/* image overlay end */
+
+/* buttons? */
+.more_btn{
+	color: #ffffff;
+	background-color: rgba(92, 187, 89, 0.548);
+	height: 60px;
+	width: 100px;
+    border-radius: 40px;
+    
+}
+.more_bb{
+position: relative;
+top: 80px;
+left: 85px;
+margin-right: 10px;
+}
+
+.boxmarging{
+    margin-top: 50px;
+    left:20px;
+}
+.card{
+   
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-color: #dfa438d8 !important;
+    background-clip: border-box;
+    border: 1px solid rgba(21, 220, 247, 0.993) !important;
+    border-radius: .25rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+
+    margin: 0;
+    padding: 0px;
+    box-sizing: all;
+    font-family: 'Poppins', sans-serif;
+    float: none;
+  }
+  
+  .sidebar{
+      position: fixed;
+      left: -300px;
+      top: 0px;
+      width: 300px;
+      height: 100%;
+      background :#6a90c9;
+      transition: all .5s ease;
+  }
+  
+  .sidebar header{
+      font-size: 22px;
+      color: white;
+      /*text-align: center;*/
+      line-height: 40px;
+      background :black rgba(255,255,255,1);
+      user-select: none;
+  }
+  
+  .sidebar ul a{
+      display: block;
+      height: 100%;
+      width: 100%;
+      line-height: 65px;
+      font-size: 16px;
+      color: white;
+      padding-left: 40px;
+      box-sizing: border-box;
+      border-top: 1px solid rgba(255,255,255,1);
+      border-bottom: 1px solid black;
+      transition: .4s;
+  }
+  
+  ul li:hover a{
+      padding-left: 50px;
+  
+  }
+  
+  
+  
+  
+  #check{
+      display: none;
+  
+  }
+  label #btn, label #cancel{
+      position: fixed;
+      cursor: pointer;
+      background:transparent;
+      border-radius: 3px;
+  
+  
+  }
+  label #btn{
+      left: 40px;
+      top: 40px;
+      font-size: 30px;
+      color: white;
+      padding: 6px,12px;
+      transition: all .5s;
+  
+  
+  
+  }
+  label #cancel{
+      z-index: 1111;
+      left: -310px;
+      top: 40px;
+      font-size: 40px;
+      color: white;
+      padding: 4px 20px;
+      transition: all .5s ease;
+  
+  }
+  
+  #check:checked ~ .sidebar{
+      left: 0;
+  
+  }
+  #check:checked ~ label #btn{
+      left: 250px;
+      opacity:0;
+      pointer-events: none;
+  
+  
+  }
+  #check:checked ~ label #cancel{
+      left: 310px;
+  
+  
+  
+  }
+  #check:checked ~section{
+      margin-left: 250px;
+  }
+  .sec{
+      
+      /*background-position: center;
+      background-size: cover;
+      height: 100vh;*/
+      transition: all .5s;
+      top: 0;
+      color: #ffffff;
+      background-size:cover;
+      background-attachment: fixed;
+      background-repeat: repeat;
+      width: 100%;
+      height: 650px;
+  
+  }
+
+
+  .table{
+    background-color: #2f2c5a;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    color: #6d0780;
+
+}
+
+.footer {
+  
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(39, 102, 55);
+  color: white;
+  text-align: center;
+}
+
+/* ****************************button  starts*******************************************/
+.a_demo_four {
+	background-color:#4b3f39;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	position:relative;
+	padding:10px 20px;
+	padding-right:50px;
+	background-image: linear-gradient(bottom, rgb(62,51,46) 0%, rgb(101,86,78) 100%);
+	border-radius: 5px;
+	box-shadow: inset 0px 1px 0px #9e8d84, 0px 5px 0px 0px #322620, 0px 10px 5px #999;
+}
+
+.a_demo_four:active {
+	top:3px;
+	background-image: linear-gradient(bottom, rgb(62,51,46) 100%, rgb(101,86,78) 0%);
+	box-shadow: inset 0px 1px 0px #9e8d84, 0px 2px 0px 0px #322620, 0px 5px 3px #999;
+}
+
+.a_demo_four::before {
+	background-color:#322620;
+	background-image:url(../images/right_arrow.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	content:"";
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:15px;
+	top:50%;
+	margin-top:-9px;
+	border-radius: 50%;
+	box-shadow: inset 0px 1px 0px #19120f, 0px 1px 0px #827066;
+}
+
+.a_demo_four:active::before {
+	top:50%;
+	margin-top:-12px;
+	box-shadow: inset 0px 1px 0px #827066, 0px 3px 0px #19120f, 0px 6px 3px #382e29;
+}
+/*   **********************button ends *************************************/
